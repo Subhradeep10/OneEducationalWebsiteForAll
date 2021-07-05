@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <section className="home__container">
       <Scrolltop showBelow={250} />
-      <div className="home__main">
+      <div className="home__main" onLoad="myFunction()">
         <div id="loading">
           
         </div>
@@ -47,6 +47,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      
     </section>
   );
 };

@@ -26,11 +26,11 @@
     -->
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"> 
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../src/pages/Home/Home.css">
 
     <title>React App</title>
   </head>
-  <body>
+  <body onload="myFunction()">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="sd"></div>
     <div id="root"></div>
@@ -45,5 +45,11 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      var preloader = document.getElementById('loading');
+      function myFunction(){
+        preloader.style.display = 'none';
+      }
+    </script>
   </body>
 </html>

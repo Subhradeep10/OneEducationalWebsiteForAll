@@ -26,7 +26,7 @@ export default function FAQ() {
     }
   };
   return (
-    <>
+    
       <section className="faq__container">
         <Scrolltop showBelow={250} />
         <div>
@@ -163,6 +163,6 @@ export default function FAQ() {
           />
         </div>
       </section>
-    </>
+    
   );
 }

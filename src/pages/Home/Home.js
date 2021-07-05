@@ -8,9 +8,6 @@ const Home = () => {
     <section className="home__container">
       <Scrolltop showBelow={250} />
       <div className="home__main" onLoad="myFunction()">
-        <div id="loading">
-          
-        </div>
         <div className="home__info--container">
           <div className="home__info">
             <h1 className="home__h1">You Can Learn Anything</h1>

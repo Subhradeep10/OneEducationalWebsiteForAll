@@ -5,13 +5,6 @@
   margin-bottom: 10rem;
 }
 
-#loading{
-  width: 100%;
-  position: fixed;
-  height: 100vh;
-  background: white
-  url('https://media.giphy.com/media/kUTME7ABmhYg5J3psM/giphy.gif') no-repeat center;
-}
 
 .home__info--container,
 .home__banner {
